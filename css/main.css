@@ -203,8 +203,9 @@
 
 #resource-download {
     position: absolute;
-    right: 5px;
-    top: 5px;
+    right: 8px;
+    left: 82%
+    top: 8px;
     font-size: 1.3em;
     z-index: 30;
     opacity: 0;
