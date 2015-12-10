@@ -1,7 +1,7 @@
 
 .top {
-    width: 100%!important;
-    height: 100%!important;
+    width: 100%;
+    min-height: 100%;
     background-image: url("../img/annenberg_purple.jpg");
     background-size: cover;
     padding: 0;
@@ -21,16 +21,19 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: inherit;
     background-color: rgba(0,0,0,0.7);
-    z-index: 1;
+    z-index: 10;
 }
 
 .more {
     color: #fff;
     position: absolute;
     bottom: 10px;
+    width: 300px;
     left: 50%;
+    right: 50%;
+    margin-left: -30px;
 }
 
 .more p {
@@ -48,6 +51,11 @@
     color: #fff;
 }
 
+.second {
+    position: relative;
+    z-index: 20;
+}
+
 .flexbox {
     display: -ms-flex;
 	display: -webkit-flex;
@@ -63,8 +71,6 @@
 .flexbox > div {
     margin: 20px;
 }
-
-
 
 .training {
     color: #fff;
@@ -124,8 +130,6 @@
     background-color: rgb(78, 42, 132);
     transition-duration: 0.3s;
 }
-
-
 
 #training-icon {
     position: absolute;
@@ -220,10 +224,6 @@
     position: static;
 }
 
-
-
-
-
 .workshop-nav p {
     display: inline-block;
     font-size: 0.8em;
@@ -244,8 +244,6 @@
     left: 115px;
     top: 10px;
 }
-
-
 
 .right a {
     padding-right: 40px;
@@ -287,12 +285,6 @@
     transition-duration: 0.5s;
     top: -120%;
 }
-
-
-
-
-
-
 
 .info {
     color: aqua;
@@ -342,8 +334,6 @@
 .workshop-nav:hover .workshop-menu {
     display: block;
 }
-
-
 
 .workshop-nav a {
     display: inline;
