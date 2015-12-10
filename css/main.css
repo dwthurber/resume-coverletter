@@ -216,6 +216,7 @@
     font-size: 5em;
     margin: 25px;
     color: #555;
+    position: static;
 }
 
 .workshop-nav {
