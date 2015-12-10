@@ -21,7 +21,7 @@ layout: default
             </div>
         </div>
         
-        <a href="#"><i class="fa fa-chevron-down" id="overlay-open" title="Resource and Examples"></i></a>
+        <a href="#/"><i class="fa fa-chevron-down" id="overlay-open" title="Resource and Examples"></i></a>
         
     </header>
     <div class="spacer"></div>
@@ -127,6 +127,27 @@ Honors and study abroad experience can be listed on this line, in succession to 
             </div>
             <hr>
             <p>Then, go through each of the sample candidate resumes below and decide which is the most qualified for the position description:</p>
+            <div class="slide-container">
+                <div class="slider">
+                    <div class="slide" id="slide-one">
+                         <iframe  src="https://app.box.com/embed/preview/svikao9vyb1df70qul3l2xl0hlohw4gt?theme=dark" width="100%" height="100%" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>
+                    </div>
+                    <div class="slide" id="slide-two">
+                         
+                    </div>
+                    
+                </div>
+                <div class="slide-dots">
+                    <ul>
+                        <li><a href="#/" id="dot-one" class="dot-active">1</a></li>
+                        <li><a href="#/">2</a></li>
+                        <li><a href="#/">3</a></li>
+                    </ul>
+                        
+                </div>
+                 <a href="#/"><i class="fa fa-chevron-left" id="slide-left"></i></a>
+                 <a href="#/"><i class="fa fa-chevron-right" id="slide-right"></i></a>
+            </div>
         </div>
     </section>
     <section>
@@ -134,16 +155,17 @@ Honors and study abroad experience can be listed on this line, in succession to 
             <hr>
             <h2 class="editable">Part 3: Reflect and Consider</h2>
             <p class="editable">Countless studies have shown that good learning happens when we pause and reflect. Before moving on to the next thing in your life, take a minute to think about your resume and how it would be evaluated by hiring managers for positions for which you are interested. Why is it important to tailor your resume to specific positions? What are hiring managers looking for in a resume?</p>
+            <div class="center"><i class="fa fa-pause-circle-o" id="pause"></i></div>
+            <p>View and dowload resources related to resume and cover letter writing including those used in this workshop by clicking <a href="#/" id="overlay-open-link">here.</a></p>
         </div>
     </section>
     <section class="resource-overlay" id="overlay">
-        <a href="#"><i class="fa fa-chevron-up" id="overlay-close"></i></a>
+        <a href="#/"><i class="fa fa-chevron-up" id="overlay-close"></i></a>
         {% include resources.html %}
     
     </section>
-
     <script type="text/javascript">
-        $("#overlay-open").click(function() {
+        $("#overlay-open, #overlay-open-link").click(function() {
             $("#overlay").css({top:0}),
             $("#overlay-close").css({top:10});
         });

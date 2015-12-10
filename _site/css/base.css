@@ -1,0 +1,369 @@
+html, body {
+	line-height: 2;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+html, body, input, textarea, select {
+	font-family: 'Open Sans', sans-serif;
+	color: #444;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+h4,
+h5,
+h6 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 70px;
+	font-weight: 900;
+    line-height: 1.3em;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+h3 {
+	font-size: 32px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+img, .portfolio-block {
+	max-width: 100%;
+	height: auto;
+}
+
+p {
+	margin: 0 0 10px;
+  word-wrap: break-word;
+  overflow-wrap: normal;
+}
+
+a {
+	-webkit-transition: all ease 150ms;
+	-moz-transition: all ease 150ms;
+	-o-transition: all ease 150ms;
+	transition: all ease 150ms;
+	color: #428bca;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	color: rebeccapurple;
+  text-decoration: none;
+}
+
+.container {
+	width: 90%;
+	max-width: 1060px;
+	margin: 0 auto 0;
+}
+
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after,
+.container:after {
+	clear: both;
+}
+
+header {
+	background: #fff;
+/*	border-bottom: 1px solid #111;*/
+	color: #f2f2f2;
+	line-height: 35px;
+    height: 45px;
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header .container {
+	padding: 0;
+	width: 100%;
+}
+
+header nav {
+	background: #191919;
+}
+
+header a {
+	height: 35px;
+	line-height: 35px;
+}
+
+header h1, header li {
+	font-size: 1em;
+	margin: 0;
+}
+
+header ul, header li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+header a {
+	display: block;
+	padding: 0 20px;
+	text-decoration: none;
+	color: #aaa;
+}
+
+header h1 a {
+	padding: 10px 20px;
+	height: 45px;
+	line-height: 0;
+}
+
+header a:hover {
+	text-decoration: none;
+	color: #eee;
+}
+
+header nav a.cc-active,
+header a:active {
+	background: #111;
+	color: #f2f2f2;
+}
+
+header img {
+    height: 55px;
+}
+
+#menu {
+    overflow: hidden;
+    max-height: 0;
+    clear: left;
+    
+}
+
+#menu.open {
+    max-height: none;
+}
+
+#menu-toggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.5em;
+    padding: 0 16px;
+}
+
+.hero {
+	color: #4e2a84;
+	text-align: center;
+	padding: 25px 0px;
+    background-image: url(../img/shattered.png);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: 200px;
+}
+
+#first {
+  margin-top: 250px;
+  background-color: #4e2a84;
+  color: #ccc;
+  padding: 0;
+  text-align: center;
+  z-index: 10;
+  position: relative;
+}
+
+
+.hero h1, .hero h2 {
+	display: block;
+	line-height: 1.1em;
+}
+
+.hero a {
+	color: #E0E0E0;
+}
+
+.subheader {
+	text-align: center;
+	max-width: 850px;
+}
+
+section {
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.alternate-section {
+	background: #f2f2f2;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+    z-index: 3;
+  position: relative;
+  padding-top: 0;
+}
+
+.portfolio-block {
+	background: #ababab;
+	border: 1px solid #ddd;
+	color: #444;
+	line-height: 1;
+	text-align: left;
+    padding-bottom: 5px;
+    max-width: 350px;
+    margin: 10px;
+    display: inline-block;
+}
+
+iframe {
+  background: #e5e3df;
+  border: 0px solid #888;
+  width: 100%;
+  overflow:hidden;
+  margin: 0;
+}
+
+footer {
+	background: #4e2a84;
+	border-top: 1px solid #131313;
+  position: relative;
+  z-index: 2;
+}
+
+footer p {
+	text-align: center;
+	margin: 0;
+	color: #888;
+}
+
+footer .copyright {
+	float: left;
+}
+
+.thirds > div, .halves > div,
+.staff-profile + .staff-profile {
+	margin-top: 20px;
+}
+
+section, footer {
+	padding: 15px 0;
+}
+
+#sortable {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#Container .mix {
+    display: none;
+}
+
+
+#search {
+  width: 20px;
+  vertical-align: middle;
+  margin: 0px 0px 0px 10px;
+  padding: 0;
+}
+
+.hero input {
+  width: 50%;
+  min-width: 200px;
+  max-width: 300px;
+  line-height: 28px;
+  border-radius: 10px;
+  padding: 2px 10px;
+  z-index: 200;
+}
+
+.hero form {
+  margin-top: 10px;
+}
+
+.spacer {
+  height: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+.sorter li.active {
+  background-color: #713dc0;
+}
+
+.filters li.active {
+  background-color: #713dc0;
+}
+
+.content-block.active {
+  background-color: #4e2a84;
+}
+
+.resume h1 {
+    font-size: 2em;
+    text-align: center;
+    line-height: 1em;
+}
+
+.address-bar {
+    font-size: small;
+    text-align: center;
+}
+
+.resume hr {
+    line-height: 0.5em;
+    margin: -5px auto;
+    width: 95%;
+    border-color: blue;
+}
+
+.resume h2 {
+    font-size: larger;
+    line-height: 1.5em;
+}
+
+.resume p, .resume li {
+    font-size: 0.8em;
+    line-height: 1.4em;
+}
+
+.resume ul {
+    margin: 0;
+}
+
+.center {
+  text-align: center;
+}
