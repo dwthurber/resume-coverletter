@@ -3,19 +3,28 @@ layout: default
 ---
 
     <header>
-        <div class="workshop-nav left">
-            <a href="index.html">Home</a>
-            <i class="fa fa-angle-double-left"></i>
+        <div class="workshop-nav">
+            <a href="workshop.html" id="workshop-title">Workshop</a>
+            <div class="workshop-menu">
+                <div class="workshop-thumbnail thumbnail-active">
+                    <a href="{{ site.baseurl }}/resume.html">
+                    <img src="./img/15628801639_ce8dddd2d9_m.jpg">
+                    <p>Resume</p>
+                    </a>
+                </div>
+                <div class="workshop-thumbnail">
+                    <a href="{{ site.baseurl }}/cover-letter.html">
+                        <img src="./img/15628801639_ce8dddd2d9_m.jpg">
+                    <p>Cover Letter</p>
+                    </a>
+                </div>
+            </div>
         </div>
-            
         
-        <div class="workshop-nav right" id="overlay-open">
-            <a href="#">Resources</a>
-            <i class="fa fa-info-circle"></i>
-        </div>
+        <a href="#"><i class="fa fa-chevron-down" id="overlay-open"></i></a>
         
     </header>
-    <section class="alternate-section">
+    <section>
         <div class="spacer"></div>
         <div class="container">
             <h1>Resume Workshop</h1>
@@ -81,19 +90,19 @@ Honors and study abroad experience can be listed on this line, in succession to 
         <i class="fa fa-dot-circle-o info" id="one-name"></i>
     </section>
     <section class="resource-overlay" id="overlay">
-        <a href="#"><i class="fa fa-chevron-right" id="overlay-close"></i></a>
+        <a href="#"><i class="fa fa-chevron-up" id="overlay-close"></i></a>
         {% include resources.html %}
     
     </section>
 
     <script type="text/javascript">
         $("#overlay-open").click(function() {
-            $("#overlay").css({left:0}),
-            $("#overlay-close").css({left:5});
+            $("#overlay").css({top:0}),
+            $("#overlay-close").css({top:10});
         });
         $("#overlay-close").click(function() {
-            $("#overlay").css({left: 100 + "%"}),
-            $("#overlay-close").css({left: 100 + "%"});
+            $("#overlay").css({top: -120 + "%"}),
+            $("#overlay-close").css({top: -120 + "%"});
         });
     
     
