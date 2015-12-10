@@ -29,6 +29,7 @@ h6 {
 h1 {
 	font-size: 70px;
 	font-weight: 900;
+    line-height: 1.3em;
 }
 
 h2 {
@@ -101,7 +102,7 @@ header {
 	border-bottom: 1px solid #111;
 	color: #f2f2f2;
 	line-height: 35px;
-    height: 35px;
+    height: 45px;
   z-index: 20;
   position: fixed;
   top: 0;
@@ -357,4 +358,36 @@ section, footer {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.resume h1 {
+    font-size: 2em;
+    text-align: center;
+    line-height: 1em;
+}
+
+.address-bar {
+    font-size: small;
+    text-align: center;
+}
+
+.resume hr {
+    line-height: 0.5em;
+    margin: -5px auto;
+    width: 95%;
+    border-color: blue;
+}
+
+.resume h2 {
+    font-size: larger;
+    line-height: 1.5em;
+}
+
+.resume p, .resume li {
+    font-size: 0.8em;
+    line-height: 1.4em;
+}
+
+.resume ul {
+    margin: 0;
 }
