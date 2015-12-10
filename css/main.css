@@ -223,7 +223,6 @@
     background-color: #260641;
     margin: 5px;
     border-radius: 5px;
-    left: 1%;
 }
 
 .workshop-nav a {
@@ -252,7 +251,7 @@
 }
 
 .right {
-    left: 77%;
+    right: 5px;
 }
 
 .right a {
@@ -296,3 +295,7 @@
 
 
 
+
+.left {
+    left: 5px;
+}
