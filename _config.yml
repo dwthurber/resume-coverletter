@@ -3,6 +3,6 @@ baseurl: "/resume-coverletter"
 collections:
     resources:
     
-type:
+types:
   -  Document
   -  PDF
