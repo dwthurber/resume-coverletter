@@ -14,12 +14,13 @@
 <body>
     <header>
         <div class="workshop-nav">
-            <p>Resume</p>
-            <i class="fa fa-caret-down"></i>
+            <a href="index.html">Home</a>
+            <i class="fa fa-angle-double-left"></i>
         </div>
+            
         
-        <div class="workshop-nav right">
-            <p>Resources</p>
+        <div class="workshop-nav right" id="overlay-open">
+            <a href="#">Resources</a>
             <i class="fa fa-info-circle"></i>
         </div>
         
@@ -88,5 +89,21 @@ Honors and study abroad experience can be listed on this line, in succession to 
             
         </div>
     </section>
+    <section class="resource-overlay" id="overlay">
+        <a href="#"><i class="fa fa-chevron-right" id="overlay-close"></i></a>
+    
+    </section>
 
+    <script type="text/javascript">
+        $("#overlay-open").click(function() {
+            $("#overlay").css({left:0}),
+            $("#overlay-close").css({left:5});
+        });
+        $("#overlay-close").click(function() {
+            $("#overlay").css({left: 100 + "%"}),
+            $("#overlay-close").css({left: 100 + "%"});
+        });
+    
+    
+    </script>
 </body>
