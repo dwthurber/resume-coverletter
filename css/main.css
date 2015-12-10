@@ -301,3 +301,15 @@
 .left {
     left: 5px;
 }
+
+.info {
+    color: aqua;
+    position: absolute;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#one-name {
+    top: 205px;
+    left: 57%;
+}
