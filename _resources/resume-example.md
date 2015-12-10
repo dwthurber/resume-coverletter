@@ -1,4 +1,4 @@
 ---
 name: Resume Example
-url: 
+resource_path: 
 ---
