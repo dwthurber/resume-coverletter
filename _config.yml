@@ -1,4 +1,4 @@
-baseurl: /resume-coverletter
+baseurl: "/resume-coverletter"
 
 collections:
     resources:
