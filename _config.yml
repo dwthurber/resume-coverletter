@@ -1,1 +1,4 @@
 baseurl: /resume-coverletter
+
+collections:
+    resources:
