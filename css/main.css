@@ -22,7 +22,7 @@
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);
     z-index: 1;
 }
 
@@ -216,4 +216,48 @@
     font-size: 5em;
     margin: 25px;
     color: #555;
+}
+
+.workshop-nav {
+    position: absolute;
+    background-color: #260641;
+    margin: 5px;
+    border-radius: 5px;
+    width: 95px;
+}
+
+.workshop-nav p {
+    display: inline-block;
+    font-size: 0.8em;
+    padding: 0 10px;
+    height: 25px;
+}
+
+.workshop-nav i {
+    display: inline;
+    position: absolute;
+    left: 75px;
+    top: 10px;
+}
+
+.right i {
+    left: 85px;
+}
+
+.right {
+    right: 5px;
+    width: 110px;
+}
+
+.resume {
+    width: 85%;
+    margin: 0 auto;
+    min-height: 100px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    padding: 5px 25px;
+}
+
+.training a {
+    color: #fff;
 }
