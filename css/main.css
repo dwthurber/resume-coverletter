@@ -259,6 +259,7 @@
     background-color: #fff;
     box-shadow: 1px 1px 1px 1px #ccc;
     padding: 5px 25px;
+    position: relative;
 }
 
 .training a {
@@ -300,9 +301,9 @@
     cursor: pointer;
 }
 
-#one-name {
-    top: 205px;
-    left: 57%;
+#one-education {
+    top: 110px;
+    left: 130px;
 }
 
 .workshop-thumbnail {
