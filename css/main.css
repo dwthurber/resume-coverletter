@@ -253,11 +253,16 @@ hr {
 .resume {
     width: 85%;
     margin: 0 auto;
-    min-height: 100px;
+    height: 1050px;
     background-color: #fff;
     box-shadow: 1px 1px 1px 1px #ccc;
     padding: 5px 25px;
     position: relative;
+    overflow: scroll;
+}
+
+.job-description {
+    height: auto;
 }
 
 .training a {
@@ -293,7 +298,53 @@ hr {
     cursor: pointer;
 }
 
-#one-education {
+.info-menu {
+    position: absolute;
+    min-width: 200px;
+    min-height: 200px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px #999;
+    display: none;
+    max-width: 500px;
+    padding: 10px;
+}
+
+.info-menu h2 {
+    font-weight: 400;
+    font-size: larger;
+    line-height: 1.4em;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+    margin-top: 0;
+}
+
+.info-menu h3 {
+    font-weight: 300;
+    font-size: large;
+    line-height: 1.3em;
+}
+
+.info-menu p, .info-menu blockquote {
+    font-weight: 100;
+    font-size: small;
+    line-height: 1.2em;
+}
+
+.info-close {
+    position: absolute;
+    right: -7px;
+    top: -7px;
+    font-size: large;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #888;
+}
+
+.info-close:hover {
+    color: #333;
+}
+
+.one {
     top: 110px;
     left: 130px;
 }

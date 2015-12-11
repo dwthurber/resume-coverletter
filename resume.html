@@ -35,12 +35,11 @@ layout: default
             <p class="editable">Explore the sample resume below and think critically about what makes this resume good or bad. You can take a look at helpful tips, advice, and critiques by clicking on the <span style="color:aqua;">blue dots</span> throughout the resume sample. Think about your own resume and how you could update your resume based on the advice here.</p>
             <div class="spacer"></div>
             
-            <div class="resume editable">
+            <div class="resume editable" id="resume-one">
                 <h1>Name</h1>
                 <p class="address-bar">Address | Email | Telephone | LinkedIn URL</p>
                 <hr>
                 <h2>Education</h2>
-                <div class="repeatables">
                 <div class="experience">
                     <p><strong>Northwestern University</strong> | Evanston, IL<br>
                         Master of Science in Higher Education Administration & Policy, Graduation Month Year<br>
@@ -56,7 +55,6 @@ Relevant courses: List only if particularly relevant to target position and only
 Honors and study abroad experience can be listed on this line, in succession to save space.
                     </p>
                     </div>
-                </div>
                 <h2>Higher Education Administration Experience</h2>
                 <div class="experience">
                     <p><strong>Employer</strong> | City, State <br>
@@ -93,9 +91,36 @@ Honors and study abroad experience can be listed on this line, in succession to 
                 
                 </ul>
                 <div class="spacer"></div>
-                <i class="fa fa-dot-circle-o info" id="one-education"></i>
+                <i class="fa fa-dot-circle-o info one" id="one-education"></i>
+                <div class="info-menu one" id="one-menu">
+                    <a href="#/"><i class="fa fa-times-circle info-close" id="one-close"></i></a>
+                    <h2>Writing the Education Section:</h2>
+                    <h3>How should I write MSHE?</h3>
+                    <p>Write out the full name and include the university, city, and state. Also include your graduation month and year even if it is anticipated graduation for the future. For example:</p>
+                    <blockquote><strong>Northwestern University</strong> | Evanston, IL<br>
+                        Master of Science in Higher Education Administration & Policy, Graduation Month Year</blockquote>
+                    <h3>Should I include anything else?</h3>
+
+                    <p>Master’s Project: Title or, if title isn’t relevant to job target, use a description of the project, written with your desired audience in mind </p>
+
+                    <p>Relevant courses: List only if particularly relevant to target position and only if you’re willing to talk about them in an interview </p>
+                    
+                </div>
+            </div>
+            <div class="resume editable hidden" id="resume-two">
+                <h1>Name</h1>
+                <p class="address-bar">Address | Email | Telephone | LinkedIn URL</p>
+                <hr>
+                <h2>Research/Presentations</h2>
+                
             </div>
             
+            <div class="page-toggle">
+                <ul>
+                    <li class="toggle-active"><a href="#/" id="toggle-one">Page 1</a></li>
+                    <li><a href="#/" id="toggle-two">Page 2</a></li>
+                </ul>
+            </div>
             
         </div>
         
@@ -107,7 +132,7 @@ Honors and study abroad experience can be listed on this line, in succession to 
             <p class="editable">Resumes are not written in a void. If you understand what hiring managers are looking for in a resume and how to examine resumes for their quality and completion, then you can write a better targeted resume. As above, think about how your resume would stack up: would your resume be competitive for this job posting? What could you do to make it competitive?</p>
             <hr>
             <p class="editable">Start by reading this sample job description:</p>
-            <div class="resume editable">
+            <div class="resume job-description editable">
                 <h1>Higher Ed Job Description</h1>
                 <p><strong>Title:</strong> Job Title</p>
                 <h2>Essential Job Duties</h2>
@@ -169,8 +194,8 @@ Honors and study abroad experience can be listed on this line, in succession to 
             <hr>
             <h2 class="editable">Reflect and Consider</h2>
             <p class="editable">Countless studies have shown that good learning happens when we pause and reflect. Before moving on to the next thing you are doing, take a minute to think about your resume and how it would be evaluated by hiring managers for positions for which you are interested. Why is it important to tailor your resume to specific positions? What are hiring managers looking for in a resume?</p>
-            <div class="center"><i class="fa fa-pause-circle-o" id="pause"></i></div>
-            <p>View and dowload resources related to resume and cover letter writing including those used in this workshop by clicking <a href="#/" id="overlay-open-link">here.</a></p>
+            <p>View and dowload resources related to resume and cover letter writing including those used in this workshop:</p>
+            <a href="#/" id="overlay-open-link"><div class="center"><i class="fa fa-book" id="pause"></i></div></a>
         </div>
     </section>
     <section class="resource-overlay" id="overlay">

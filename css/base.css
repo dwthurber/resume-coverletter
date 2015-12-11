@@ -344,6 +344,8 @@ section, footer {
     text-align: center;
 }
 
+
+
 .resume hr {
     line-height: 0.5em;
     margin: -5px auto;
@@ -367,4 +369,43 @@ section, footer {
 
 .center {
   text-align: center;
+}
+
+.page-toggle {
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.page-toggle ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page-toggle li {
+  display: inline-block;
+  margin: 0 5px;
+  background-color: #eee;
+  border-radius: 10px;
+  font-size: small;
+  line-height: 1.3em;
+  box-shadow: 0px 0px 0px 0px;
+}
+
+.page-toggle a {
+  color: #777;
+  padding: 3px 10px;
+  display: block;
+}
+
+.page-toggle li:hover {
+  background-color: #fff;
+  box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+.toggle-active {
+  background-color: #fff;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  border-radius: 10px;
 }
