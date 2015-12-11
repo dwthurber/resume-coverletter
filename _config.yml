@@ -1,7 +1,7 @@
 baseurl: "/resume-coverletter"
 
 collections:
-    resources:
+    materials:
     
 types:
   -  Document
