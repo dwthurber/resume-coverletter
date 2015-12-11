@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+    <header>
+        <div class="workshop-nav">
+            <a href="workshop.html" id="workshop-title">Workshops</a>
+            <div class="workshop-menu">
+                <div class="workshop-thumbnail">
+                    <a href="{{ site.baseurl }}/resume.html">
+                    <img src="./img/resume.jpg">
+                    <p>Resume</p>
+                    </a>
+                </div>
+                <div class="workshop-thumbnail thumbnail-active">
+                    <a href="{{ site.baseurl }}/cover-letter.html">
+                        <img src="./img/cover-letter.jpg">
+                    <p>Cover Letter</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <a href="#/"><i class="fa fa-chevron-down" id="overlay-open" title="Resource and Examples"></i></a>
+        
+    </header>
+    <div class="spacer"></div>
+    <div class="container">
+    <h1>Cover Letter Workshop</h1>
+    </div>
+<section>
+    <div class="container">
+            <h2 class="editable">Tailor a cover letter to different jobs</h2>
+            <p class="editable">Cover letters are a way to stand out from the pile. Hiring managers expect to see specific experience in your cover letter related the job description.</p>
+    </div>
+</section>
+<section class="resource-overlay" id="overlay">
+        <a href="#/"><i class="fa fa-chevron-up" id="overlay-close"></i></a>
+        {% include resources.html %}
+    
+    </section>
+<script type="text/javascript">
+        $("#overlay-open, #overlay-open-link").click(function() {
+            $("#overlay").css({top:0}),
+            $("#overlay-close").css({top:10});
+        });
+        $("#overlay-close").click(function() {
+            $("#overlay").css({top: -120 + "%"}),
+            $("#overlay-close").css({top: -120 + "%"});
+        });
+</script>
