@@ -425,7 +425,7 @@ hr {
 #slide-right {
     position: absolute;
     color: #888;
-    right: 5;
+    right: 5px;
     top: 45%;
     font-size: 2.7em;
     padding: 10px;
@@ -433,10 +433,10 @@ hr {
     
 }
 
-#slide-right:hover {
-    background-color: #fff;
-    box-shadow: 2px 2px 2px 2px;
-}
+/*#slide-right:hover {*/
+/*    background-color: #fff;*/
+/*    box-shadow: 2px 2px 2px 2px;*/
+/*}*/
 
 #pause {
     font-size: 20em;
