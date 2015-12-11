@@ -425,9 +425,17 @@ hr {
 #slide-right {
     position: absolute;
     color: #888;
-    right: 0;
+    right: 5;
     top: 45%;
     font-size: 2.7em;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+
+#slide-right:hover {
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px;
 }
 
 #pause {
