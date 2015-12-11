@@ -258,7 +258,7 @@ hr {
     box-shadow: 1px 1px 1px 1px #ccc;
     padding: 5px 25px;
     position: relative;
-    overflow: scroll;
+    overflow: visible;
 }
 
 .job-description {
@@ -305,7 +305,7 @@ hr {
     background-color: #fff;
     box-shadow: 1px 1px 1px 1px #999;
     display: none;
-    max-width: 500px;
+    max-width: 650px;
     padding: 10px;
 }
 
@@ -330,6 +330,10 @@ hr {
     line-height: 1.2em;
 }
 
+.info-menu .flexbox {
+    border-top: 1px dotted #eee;
+}
+
 .info-close {
     position: absolute;
     right: -7px;
@@ -347,6 +351,11 @@ hr {
 .one {
     top: 110px;
     left: 130px;
+}
+
+.two {
+    top: 420px;
+    left: 25px;
 }
 
 .workshop-thumbnail {

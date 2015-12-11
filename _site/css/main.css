@@ -1,0 +1,517 @@
+
+.top {
+    width: 100%;
+    min-height: 100%;
+/*    background-image: url("../img/annenberg_purple.jpg");*/
+    background-size: cover;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+/*    color: #fff;*/
+}
+
+.title h1 {
+    font-size: 2.5em;
+    line-height: 1.5em;
+}
+
+.img-layer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: inherit;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 10;
+}
+
+.more {
+/*    color: #fff;*/
+    position: absolute;
+    bottom: 10px;
+    width: 300px;
+    left: 50%;
+    right: 50%;
+    margin-left: -30px;
+}
+
+.more p {
+    margin-left: -80%;
+    text-align: center;
+    line-height: 1em;
+}
+
+.more i {
+    font-size: 3em;
+    line-height: 1em;
+}
+
+.more a {
+    color: #777;
+}
+
+.second {
+    position: relative;
+    z-index: 20;
+}
+
+.flexbox {
+    display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    align-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.flexbox > div {
+    margin: 20px;
+}
+
+.training {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    height: 250px;
+    max-width: 250px;
+    min-width: 250px;
+    background-color: #927FB5;
+    overflow: hidden;
+}
+
+.training img {
+    width: 100%;
+    height: 100%;
+}
+
+.training h4 {
+    position: absolute;
+    width: 100%;
+    bottom: -10px;
+    background-color: rgba(78, 42, 132, 0.9);
+    z-index: 10;
+}
+
+.training:hover .over {
+    height: 100%;
+    transition-duration: 0.3s;
+}
+
+.training .over {
+    background-color: #927FB5;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 5;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.training p {
+    padding: 10px;
+    line-height: 1.4em;
+}
+
+.over i {
+    padding: 10px;
+    border: #fff solid 1px;
+    border-radius: 50%;
+    transition-duration: 0.3s;
+}
+
+.over i:hover {
+    background-color: rgb(78, 42, 132);
+    transition-duration: 0.3s;
+}
+
+#training-icon {
+    position: absolute;
+    top: 10%;
+    left: 55px;
+    font-size: 8em;
+}
+
+#supergraphic {
+    color: #4e2a84;
+    font-size: 13em;
+    z-index: 0;
+    position: absolute;
+    left: 35px;
+    top: 60px;
+    
+}
+
+.flex-start {
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.sub-section-title h4 {
+    text-align: center;
+    font-weight: 100;
+    line-height: 1.5em;
+    color: #666;
+}
+
+hr {
+    border: #eee solid 1px;
+    width: 10%;
+    margin-top: 25px;
+}
+
+.sub-section-title {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sub-section-title p {
+    line-height: 1.5em;
+    font-size: 0.9em;
+    color: #888;
+}
+
+.resource {
+    width: 200px;
+    height: 200px;
+    border: #ddd solid 1px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    transition-duration: 0.3s;
+    margin: 10px;
+}
+
+.resource h5 {
+    font-weight: 100;
+    font-size: 1em;
+    color: #777;
+    line-height: 1.3em;
+}
+
+.resource:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    transition-duration: 0.3s;
+}
+
+.resource:hover #resource-download {
+    opacity: 1;
+    transition-duration: 0.3s;
+}
+
+#resource-download {
+    position: absolute;
+    right: 8px;
+    left: 82%;
+    top: 8px;
+    font-size: 1.3em;
+    z-index: 30;
+    opacity: 0;
+    transition-duration: 0.3s;
+    color: #ddd;
+}
+
+.resource .resource-icon {
+    font-size: 5em;
+    margin: 25px;
+    color: #555;
+    position: static;
+}
+
+.workshop-nav p {
+    display: inline-block;
+    font-size: 0.8em;
+    padding: 0 10px;
+    height: 25px;
+    color: #fff;
+}
+
+.workshop-nav i {
+    display: inline;
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    color: #fff;
+}
+
+.right i {
+    left: 115px;
+    top: 10px;
+}
+
+.right a {
+    padding-right: 40px;
+    padding-left: 15px;
+}
+
+.resume {
+    width: 85%;
+    margin: 0 auto;
+    height: 1050px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    padding: 5px 25px;
+    position: relative;
+    overflow: visible;
+}
+
+.job-description {
+    height: auto;
+}
+
+.training a {
+    color: #fff;
+}
+
+.resource-overlay {
+    position: fixed;
+    top: -150%;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    left: 0;
+/*    display: none;*/
+    transition-duration: 0.5s;
+}
+
+.resource-overlay i {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    font-size: larger;
+    color: #333;
+    transition-duration: 0.5s;
+    top: -120%;
+}
+
+.info {
+    color: aqua;
+    position: absolute;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.info-menu {
+    position: absolute;
+    min-width: 200px;
+    min-height: 200px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px #999;
+    display: none;
+    max-width: 650px;
+    padding: 10px;
+}
+
+.info-menu h2 {
+    font-weight: 400;
+    font-size: larger;
+    line-height: 1.4em;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+    margin-top: 0;
+}
+
+.info-menu h3 {
+    font-weight: 300;
+    font-size: large;
+    line-height: 1.3em;
+}
+
+.info-menu p, .info-menu blockquote {
+    font-weight: 100;
+    font-size: small;
+    line-height: 1.2em;
+}
+
+.info-menu .flexbox {
+    border-top: 1px dotted #eee;
+}
+
+.info-close {
+    position: absolute;
+    right: -7px;
+    top: -7px;
+    font-size: large;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #888;
+}
+
+.info-close:hover {
+    color: #333;
+}
+
+.one {
+    top: 110px;
+    left: 130px;
+}
+
+.two {
+    top: 420px;
+    left: 25px;
+}
+
+.workshop-thumbnail {
+    display: inline-block;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 0px 0px 0px;
+}
+
+.workshop-menu {
+    position: absolute;
+    background-color: #333;
+    width: 100%;
+    padding: 5px 20px;
+    display: none;
+}
+
+.workshop-thumbnail p {
+    line-height: 1.5em;
+}
+
+.workshop-thumbnail:hover {
+    background-color: #000;
+}
+
+.workshop-thumbnail img {
+    border-radius: 3px;
+}
+
+.thumbnail-active {
+    background-color: #000;
+}
+
+.workshop-nav:hover .workshop-menu {
+    display: block;
+}
+
+.workshop-nav a {
+    display: inline;
+    padding: 0;
+}
+
+#workshop-title {
+    margin-left: 20px;
+}
+
+.workshop-nav {
+    display: inline-block;
+}
+
+#overlay-open {
+    position:absolute;
+    color: #888;
+    top: 10px;
+    left: 50%;
+    right: 50%;
+}
+
+.slide-container {
+    position: relative;
+}
+
+.slider {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    overflow: scroll;
+    position: relative;
+}
+
+.slide {
+    width: 80%;
+    height: 100%;
+    background-color: #333;
+    position: absolute;
+}
+
+.slide-dots {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.slide-dots ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.slide-dots li {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin: 0 15px;
+}
+
+.slide-dots a {
+    border: solid aqua 1px;
+    border-radius: 50%;
+    padding: 2px 7px;
+    color: #333;
+}
+
+.slide-dots a:hover {
+    background-color: aqua;
+}
+
+.dot-active {
+   background-color: aqua; 
+}
+
+#slide-two {
+    left: 95%;
+}
+
+#slide-left {
+    position: absolute;
+    color: #888;
+    left: 0;
+    top: 45%;
+    font-size: 2.7em;
+}
+
+#slide-right {
+    position: absolute;
+    color: #888;
+    right: 5px;
+    top: 45%;
+    font-size: 2.7em;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+
+/*#slide-right:hover {*/
+/*    background-color: #fff;*/
+/*    box-shadow: 2px 2px 2px 2px;*/
+/*}*/
+
+#pause {
+    font-size: 20em;
+    color: #ddd;
+}
+#slide-one {
+    left: 10%;
+}
+
+#last {
+    width: 10%;
+    left: 260%;
+    background-color: #fff;
+}
+
+#slide-three {
+    left: 180%;
+}

@@ -6,7 +6,13 @@ $(document).ready(function(){
    }); 
    $("#one-close").click(function(){
         $("#one-menu").fadeOut(100);
+   });
+   $("#two-dot").click(function(){
+        $("#two-menu").fadeIn(100);
    }); 
+   $("#two-close").click(function(){
+        $("#two-menu").fadeOut(100);
+   });
    
 //   resume page toggle
    $('#toggle-one').addClass("toggle-active");
