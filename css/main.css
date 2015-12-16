@@ -253,7 +253,7 @@ hr {
 .resume {
     width: 85%;
     margin: 0 auto;
-    height: 1050px;
+    min-height: 1050px;
     background-color: #fff;
     box-shadow: 1px 1px 1px 1px #ccc;
     padding: 5px 25px;
