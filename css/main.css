@@ -528,3 +528,16 @@ hr {
 #slide-three {
     left: 180%;
 }
+
+.examples-toggle {
+    width: 100%;
+    text-align: center;
+}
+
+.example {
+    width: 48%;
+    float: left;
+    text-align: center;
+    min-height: 100px;
+    margin: 10px;
+}

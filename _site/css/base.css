@@ -139,7 +139,11 @@ header ul, header li {
 
 header nav li {
   display: inline;
-  margin: 2px 5px;
+  margin: 2px 8px;
+}
+
+header nav li:last-child {
+  margin-right: 30px;
 }
 
 header a {

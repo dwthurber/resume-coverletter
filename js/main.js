@@ -41,4 +41,26 @@ $(document).ready(function(){
        $("#toggle-two").addClass('toggle-active');
        $("#toggle-one").removeClass('toggle-active');
    });
+   
+// Activity page toggle
+   $('#toggle-sample-one').addClass("toggle-active");
+   
+   $("#toggle-sample-one").click(function(){
+       $("#example-one").show();
+       $("#example-two, #example-three").hide();
+       $("#toggle-sample-one").addClass('toggle-active');
+       $("#toggle-sample-two, #toggle-sample-three").removeClass('toggle-active');
+   });
+   $("#toggle-sample-two").click(function(){
+       $("#example-two").show();
+       $("#example-one, #example-three").hide();
+       $("#toggle-sample-two").addClass('toggle-active');
+       $("#toggle-sample-one, #toggle-sample-three").removeClass('toggle-active');
+   });
+   $("#toggle-sample-three").click(function(){
+       $("#example-three").show();
+       $("#example-one, #example-two").hide();
+       $("#toggle-sample-three").addClass('toggle-active');
+       $("#toggle-sample-one, #toggle-sample-two").removeClass('toggle-active');
+   });
 });
