@@ -99,7 +99,6 @@ a:focus {
 }
 
 header {
-	background: #fff;
 	opacity: 0.9;
 /*	border-bottom: 1px solid #111;*/
 	color: #f2f2f2;
@@ -119,6 +118,7 @@ header .container {
 
 header nav {
 	background: #191919;
+  text-align: right;
 }
 
 header a {
@@ -137,11 +137,14 @@ header ul, header li {
 	list-style: none;
 }
 
+header nav li {
+  display: inline;
+  margin: 2px 5px;
+}
+
 header a {
-	display: block;
-	padding: 0 20px;
 	text-decoration: none;
-	color: #aaa;
+	color: #ddd;
 }
 
 header h1 a {
@@ -151,14 +154,14 @@ header h1 a {
 }
 
 header a:hover {
-	text-decoration: none;
-	color: #eee;
+	text-decoration: underline;
+	color: #999;
 }
 
 header nav a.cc-active,
 header a:active {
-	background: #111;
-	color: #f2f2f2;
+	color: #999;
+  text-decoration: underline;
 }
 
 header img {

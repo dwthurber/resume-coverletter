@@ -2,7 +2,7 @@
 .top {
     width: 100%;
     min-height: 100%;
-/*    background-image: url("../img/annenberg_purple.jpg");*/
+    /*background-image: url("../img/annenberg_purple.jpg");*/
     background-size: cover;
     padding: 0;
 }
@@ -15,6 +15,15 @@
 .title h1 {
     font-size: 2.5em;
     line-height: 1.5em;
+}
+
+.title p, .title li {
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.title h4 {
+    margin-bottom: 0px;
 }
 
 .img-layer {
@@ -53,7 +62,10 @@
 
 .second {
     position: relative;
-    z-index: 20;
+    /*z-index: 20;*/
+    /*background-color: #eee;*/
+    background-image: url("../img/pw_pattern.png");
+    /*background-size: cover;*/
 }
 
 .flexbox {
@@ -64,7 +76,7 @@
     width: 90%;
     margin: 0 auto;
     align-content: center;
-    margin-top: 20px;
+    margin-top: 0px;
     flex-wrap: wrap;
 }
 
@@ -76,9 +88,9 @@
     color: #fff;
     text-align: center;
     position: relative;
-    height: 250px;
-    max-width: 250px;
-    min-width: 250px;
+    height: 150px;
+    max-width: 150px;
+    min-width: 150px;
     background-color: #927FB5;
     overflow: hidden;
 }
@@ -186,6 +198,7 @@ hr {
     position: relative;
     transition-duration: 0.3s;
     margin: 10px;
+    background-color: #fff;
 }
 
 .resource h5 {
@@ -253,7 +266,7 @@ hr {
 .resume {
     width: 85%;
     margin: 0 auto;
-    height: 1050px;
+    min-height: 1050px;
     background-color: #fff;
     box-shadow: 1px 1px 1px 1px #ccc;
     padding: 5px 25px;

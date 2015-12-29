@@ -1,5 +1,17 @@
 $(document).ready(function(){
     
+    $(window).scroll(function () {
+
+        var y = $(this).scrollTop();
+
+        $('.link').each(function (event) {
+            if (y >= $($(this).attr('href')).offset().top - 40) {
+                $('.link').not(this).removeClass('cc-active');
+                $(this).addClass('cc-active');
+            }
+        });
+    });
+
 // resume "dots" menues
    $("#one-education").click(function(){
         $("#one-menu").fadeIn(100);
