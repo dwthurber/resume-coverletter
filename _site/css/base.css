@@ -382,6 +382,7 @@ section, footer {
   width: 200px;
   margin: 0 auto;
   margin-top: 10px;
+  text-align: center;
 }
 
 .page-toggle ul {
@@ -415,4 +416,9 @@ section, footer {
   background-color: #fff;
   box-shadow: 1px 1px 1px 1px #ccc;
   border-radius: 10px;
+}
+
+.larger {
+  font-weight: 700;
+  font-size: larger;
 }
