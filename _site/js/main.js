@@ -13,18 +13,14 @@ $(document).ready(function(){
     });
 
 // resume "dots" menues
-   $("#one-education").click(function(){
-        $("#one-menu").fadeIn(100);
-   }); 
-   $("#one-close").click(function(){
-        $("#one-menu").fadeOut(100);
-   });
-   $("#two-dot").click(function(){
-        $("#two-menu").fadeIn(100);
-   }); 
-   $("#two-close").click(function(){
-        $("#two-menu").fadeOut(100);
-   });
+    $(".info").click(function(){
+        $(this).children(".info-menu").fadeIn(200);
+    });
+    
+    $(".info-close").click(function(){
+        $(this).parents(".info").fadeOut(200);
+    });
+
    
 //   resume page toggle
    $('#toggle-one').addClass("toggle-active");

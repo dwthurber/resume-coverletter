@@ -265,6 +265,8 @@ hr {
 
 .resume {
     width: 85%;
+    min-width: 750px;
+    max-width: 950px;
     margin: 0 auto;
     min-height: 1050px;
     background-color: #fff;
@@ -304,7 +306,7 @@ hr {
     top: -120%;
 }
 
-.info {
+.info > i {
     color: aqua;
     position: absolute;
     opacity: 0.9;
@@ -317,6 +319,7 @@ hr {
     min-height: 200px;
     background-color: #fff;
     box-shadow: 1px 1px 1px 1px #999;
+    border: solid aqua 1px;
     display: none;
     max-width: 650px;
     padding: 10px;
@@ -343,8 +346,24 @@ hr {
     line-height: 1.2em;
 }
 
+.info-menu table {
+    border: solid 1px #999;
+    margin-top: 10px;
+}
+
+.info-menu td, .info-menu th {
+    border: solid 1px #999;
+    padding: 3px;
+}
+
 .info-menu .flexbox {
     border-top: 1px dotted #eee;
+    transform: scaley(0.75);
+    height: auto;
+}
+
+.info-menu .resource {
+    transform: scalex(0.75);
 }
 
 .info-close {
@@ -354,21 +373,31 @@ hr {
     font-size: large;
     background-color: #fff;
     border-radius: 50%;
-    color: #888;
+    color: aqua;
 }
 
 .info-close:hover {
     color: #333;
 }
 
-.one {
-    top: 110px;
-    left: 130px;
+.resume-one {
+    top: 60px;
+    left: 70%;
 }
 
-.two {
-    top: 420px;
-    left: 25px;
+.resume-two {
+    top: 135px;
+    left: 133px;
+}
+
+.resume-three {
+    top: 415px;
+    left: 330px;
+}
+
+.resume-four {
+    top: 525px;
+    left: 22px;
 }
 
 .workshop-thumbnail {
@@ -435,7 +464,7 @@ hr {
 }
 
 .example {
-    width: 48%;
+    width: 46.5%;
     float: left;
     text-align: center;
     min-height: 100px;
