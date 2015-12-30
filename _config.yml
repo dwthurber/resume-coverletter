@@ -1,8 +1,1 @@
 baseurl: "/resume-coverletter"
-
-collections:
-    materials:
-    
-types:
-  -  Document
-  -  PDF
