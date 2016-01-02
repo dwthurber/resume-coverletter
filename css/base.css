@@ -363,13 +363,22 @@ section, footer {
     text-align: center;
 }
 
+.left {
+  float: left;
+  margin-left: 4%;
+}
 
+.right {
+  float: right;
+  margin-right: 4%;
+}
 
 .resume hr {
     line-height: 0.5em;
     margin: -5px auto;
     width: 95%;
     border-color: blue;
+    clear: both;
 }
 
 .resume h2 {
