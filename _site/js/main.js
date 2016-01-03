@@ -13,12 +13,13 @@ $(document).ready(function(){
     });
 
 // resume "dots" menues
-    $(".info").click(function(){
+    $(".info").click(function() { 
         $(this).children(".info-menu").fadeIn(200);
     });
     
     $(".info-close").click(function(){
-        $(this).parents(".info").fadeOut(200);
+        event.stopPropagation();
+        $(this).closest(".info-menu").fadeOut(200);
     });
 
    
