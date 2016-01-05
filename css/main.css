@@ -392,8 +392,8 @@ hr {
 }
 
 .resume-three {
-    top: 415px;
-    left: 330px;
+    top: 400px;
+    left: 435px;
 }
 
 .resume-four {
@@ -402,7 +402,7 @@ hr {
 }
 
 .resume-five {
-    top: 88%;
+    top: 745px;
     left: 298px;
 }
 
@@ -412,8 +412,28 @@ hr {
 }
 
 .resume-seven {
-    top: 922px;
+    top: 905px;
     left: 228px;
+}
+
+.letter-one {
+    top: 300px;
+    left: 280px;
+}
+
+.letter-two {
+    top: 450px;
+    left: 5px;
+}
+
+.letter-three {
+    top: 600px;
+    left: 5px;
+}
+
+.letter-four {
+    top: 800px;
+    left: 5px;
 }
 
 .workshop-thumbnail {
