@@ -508,3 +508,8 @@ hr {
     min-height: 100px;
     margin: 10px;
 }
+
+.survey {
+    width: 700px;
+    margin: 0 auto;
+}
