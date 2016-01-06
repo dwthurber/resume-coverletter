@@ -2,9 +2,10 @@
 .top {
     width: 100%;
     min-height: 100%;
-    /*background-image: url("../img/annenberg_purple.jpg");*/
+    background-image: url("../img/annenberg_purple.png");
     background-size: cover;
     padding: 0;
+    color: #fff;
 }
 
 .title {
@@ -173,7 +174,7 @@
 }
 
 hr {
-    border: #eee solid 1px;
+    border: #4e2a84 solid 1px;
     width: 10%;
     margin-top: 25px;
 }
@@ -183,10 +184,11 @@ hr {
     margin-top: 10px;
 }
 
-.sub-section-title p {
+.sub-section-title p{
     line-height: 1.5em;
     font-size: 0.9em;
     color: #888;
+    text-align: left;
 }
 
 .resource {

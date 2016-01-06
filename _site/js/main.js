@@ -14,12 +14,18 @@ $(document).ready(function(){
 
 // resume "dots" menues
     $(".info").click(function() { 
+        event.stopPropagation();
         $(this).children(".info-menu").fadeIn(200);
     });
     
     $(".info-close").click(function(){
         event.stopPropagation();
         $(this).closest(".info-menu").fadeOut(200);
+    });
+    
+    $(".resume").click(function(){
+        event.stopPropagation();
+        $(".info-menu").fadeOut(200); 
     });
 
    
